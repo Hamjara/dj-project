@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="section-top">
+    <img src="{% static 'img/IMG_7819-05-07-17-11-44.JPG' %}" class='img-responsive'>
+    </div>
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row">
+
+                {% for good in goods %}
+                    <div class="col-lg-2">
+                        <div class="product-item">
+                            <h4>{{ good.name }}</h4>
+                            <div>
+                                <img src="{{ MEDIA_URL }}{{ good.image.url }}" width="200" height="300">
+                            </div>
+                               <p>gi
+                               <p> {{ good.short_description|truncatechars_html:70 }}
+                            <div class='sale-price'>
+                               <h4>{{ good.sale_price_50}} руб.</h4>
+                            </div>
+                            <div class="add-to-cart-btn">
+                                <button class="btn btn-default">
+                                    Добавить в заказ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+{% endblock content %}
