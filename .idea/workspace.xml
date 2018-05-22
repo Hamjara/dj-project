@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6c88603-38e5-4cb8-bfb3-01ceaecbe058" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/goods/good.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/goods/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products_images/vodka-khorticya-klassicheskaya.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/IMG_7819-05-07-17-11-44.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/Goods_images/GIN_GOR8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/Goods_images/e91285ab7580de5797d4640ba3480f89.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/Goods_images/e91285ab7580de5797d4640ba3480f89.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/Goods_images/jack-daniels-tennessee-whiskey-transparent-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/Goods_images/jack-daniels-tennessee-whiskey-transparent-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/Goods_images/pepsi.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/Goods_images/pepsi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/Goods_images/schweppes-indian-tonic-water-0-2l.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/Goods_images/schweppes-indian-tonic-water-0-2l.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/third/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -97,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="355">
+              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -176,13 +164,13 @@
         <option value="$PROJECT_DIR$/main/urls.py" />
         <option value="$PROJECT_DIR$/cocktails/models.py" />
         <option value="$PROJECT_DIR$/third/settings.py" />
-        <option value="$PROJECT_DIR$/static/style.css" />
         <option value="$PROJECT_DIR$/templates/products/product.html" />
         <option value="$PROJECT_DIR$/templates/goods/good.html" />
         <option value="$PROJECT_DIR$/goods/views.py" />
         <option value="$PROJECT_DIR$/goods/urls.py" />
         <option value="$PROJECT_DIR$/third/urls.py" />
         <option value="$PROJECT_DIR$/templates/main/home.html" />
+        <option value="$PROJECT_DIR$/static/style.css" />
       </list>
     </option>
   </component>
@@ -196,8 +184,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="780" />
-    <option name="y" value="221" />
+    <option name="x" value="904" />
+    <option name="y" value="183" />
     <option name="width" value="1025" />
     <option name="height" value="776" />
   </component>
@@ -354,7 +342,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="780" y="221" width="1025" height="776" extended-state="0" />
+    <frame x="904" y="183" width="1025" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -692,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -736,10 +717,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/goods/good.html">
+    <entry file="file://$PROJECT_DIR$/third/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="357">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#629#670#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -753,13 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/goods/good.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#629#670#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -767,6 +748,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
         </state>
       </provider>
     </entry>

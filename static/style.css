@@ -47,11 +47,12 @@ html, body {
     font-family: 'Roboto', sans-serif;
     height: 70px;
 
-
 }
 
 .footer{
-    margin-bottom: -100px;
+    position: relative;
+    margin-top: -180px;
+    clear: both;
     background-color: #03090C;
-    height: 200px;
+    height: 180px;
 }
