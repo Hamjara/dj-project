@@ -10,7 +10,7 @@ html, body {
 }
 
 .product-item{
-    height: 500px;
+    height: 550px;
     background-color: #081116;
     color: white;
     position: relative;
@@ -25,17 +25,33 @@ html, body {
 .add-to-cart-btn{
     position: absolute;
     bottom: 20px;
-    left: 80px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .btn-default{
     background-color: #F7B53E;
+
 }
 
 .sale-price{
     position: absolute;
     text-align: center;
-    left: 0;
-    width: 100%;
+    left: 50%;
     bottom: 60px;
+    transform: translateX(-50%);
+}
+
+.text-center{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 70px;
+
+
+}
+
+.footer{
+    margin-bottom: -100px;
+    background-color: #03090C;
+    height: 200px;
 }

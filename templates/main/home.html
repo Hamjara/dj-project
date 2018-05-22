@@ -3,21 +3,94 @@
 
 {% block content %}
     <div class="section-top">
-    <img src="{% static 'img/IMG_7819-05-07-17-11-44.JPG' %}" class='img-responsive'>
+    <img src="{% static 'img/IMG_7819-05-07-17-11-444.JPG' %}" class='img-responsive'>
     </div>
     <div class="section">
         <div class="container-fluid">
             <div class="row">
-
+            <div class="col-lg-12">
+                <p>
+                <h1 class="text-center">
+                    Вы влюбитесь в это!
+                </h1>
+            </div>
                 {% for good in goods %}
                     <div class="col-lg-2">
                         <div class="product-item">
                             <h4>{{ good.name }}</h4>
                             <div>
-                                <img src="{{ MEDIA_URL }}{{ good.image.url }}" width="200" height="300">
+                                <a href="{% url 'good' good.id %}">
+                                <img src="{{ MEDIA_URL }}{{ good.image.url }}" width="200" height="350">
+                                <a>
                             </div>
-                               <p>gi
-                               <p> {{ good.short_description|truncatechars_html:70 }}
+                               <p>
+                               <p> {{ good.short_description|truncatechars_html:50 }}
+                            <div class='sale-price'>
+                               <h4>{{ good.sale_price_50}} руб.</h4>
+                            </div>
+                            <div class="add-to-cart-btn">
+                                <button class="btn btn-default">
+                                    Добавить в заказ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12">
+                <p>
+                <h1 class="text-center">
+                    Любопытные новинки!
+                </h1>
+            </div>
+                {% for good in goods %}
+                    <div class="col-lg-2">
+                        <div class="product-item">
+                            <h4>{{ good.name }}</h4>
+                            <div>
+                                <img src="{{ MEDIA_URL }}{{ good.image.url }}" width="200" height="350">
+                            </div>
+                               <p>
+                               <p> {{ good.short_description|truncatechars_html:50 }}
+                            <div class='sale-price'>
+                               <h4>{{ good.sale_price_50}} руб.</h4>
+                            </div>
+                            <div class="add-to-cart-btn">
+                                <button class="btn btn-default">
+                                    Добавить в заказ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12">
+                <p>
+                <h1 class="text-center">
+                    Согревающие предложения!
+                </h1>
+            </div>
+                {% for good in goods %}
+                    <div class="col-lg-2">
+                        <div class="product-item">
+                            <h4>{{ good.name }}</h4>
+                            <div>
+                                <img src="{{ MEDIA_URL }}{{ good.image.url }}" width="200" height="350">
+                            </div>
+                               <p>
+                               <p> {{ good.short_description|truncatechars_html:50 }}
                             <div class='sale-price'>
                                <h4>{{ good.sale_price_50}} руб.</h4>
                             </div>
